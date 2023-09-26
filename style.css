@@ -1,0 +1,111 @@
+body{
+    background: rgb(0, 0, 33);
+    color: aliceblue;
+}
+header{
+    background: rgb(20, 8, 61);
+    margin:-60px ;
+    padding:auto;
+}
+nav ul{
+    
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+nav ul li{
+    font-size: 15px;
+    list-style: none;
+    margin: 0px 23px;
+    padding: 5px 20px;
+}
+nav ul li a:hover{
+
+color: blue;
+font-size: 16px;
+}
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+nav ul li .fb{
+    border-radius: 100px;
+}
+nav ul li .insta{
+    border-radius: 100px;
+}
+nav ul li .yt{
+    border-radius: 100px;
+}
+nav ul li .tiktok{
+    border-radius: 100px;
+}
+div{
+
+    align-items: center;
+    border: 5px 5px;
+    margin: 60px 10px;
+    
+}
+
+.micro{
+    background: purple;
+   
+    text-align:center;
+    margin: 80px 20px;
+    padding: 250px;
+    margin: 400px;
+    border-radius: 438px;
+}
+.squreorange{
+    border: 2px solid white;
+    background: orange;
+    padding: 27px 40px;
+    margin-right:3px ;
+    border-radius: 10px;
+   
+    
+}
+.squreorange:hover{
+    background: black;
+    cursor: pointer;
+}
+.squregreen{
+    background: rgb(117, 237, 117);
+    padding: 27px 40px;
+    border: 2px solid white;
+    box-shadow: 20px 15px rgb(33, 27, 27);
+    border-radius: 10px;
+}
+.squregreen:hover{
+    background: black;
+    cursor: pointer;
+}
+.squreblue{
+background: blue;
+padding: 27px 40px;
+margin-right: 3px;
+box-shadow: 20px 15px rgb(33, 27, 27);
+border: 2px solid white;
+border-radius: 10px;
+}
+.squreblue:hover{
+    background: black;
+    cursor: pointer;
+}
+.squreyellow{
+    background: yellow;
+    padding: 27px 40px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 20px 15px rgb(33, 27, 27);
+    
+
+}
+.squreyellow:hover{
+    background:black;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(33, 27, 27);   
+    
+}
